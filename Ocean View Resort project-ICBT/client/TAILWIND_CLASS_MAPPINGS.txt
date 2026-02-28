@@ -1,0 +1,145 @@
+// QUICK TAILWIND CONVERSION SNIPPETS
+// Copy these className updates to your page files
+
+// ===================
+// LANDING.JSX Updates
+// ===================
+
+// Main wrapper
+className="landing-page" → className="min-h-screen"
+
+// Hero section
+className="hero-section" → className="relative h-[600px] bg-gradient-to-br from-primary via-primary-light to-primary flex items-center justify-center overflow-hidden"
+className="hero-overlay" → className="absolute inset-0 bg-black/10"
+className="hero-content" → className="relative z-10 text-center text-white px-8 max-w-3xl"
+className="hero-title" → className="text-6xl mb-4 font-bold drop-shadow-lg"
+className="hero-subtitle" → className="text-2xl mb-8 opacity-95 drop-shadow-md"
+className="hero-buttons" → className="flex gap-4 justify-center flex-wrap"
+
+// Quick actions
+className="quick-actions" → className="py-16 px-8 bg-white -mt-12 relative z-10"
+className="container" → className="max-w-[1400px] mx-auto"
+className="actions-grid" → className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8"
+className="action-card" → className="bg-gradient-to-br from-white to-gray-50 p-10 rounded-2xl text-center no-underline text-primary transition-all duration-300 shadow-md hover:-translate-y-3 hover:shadow-xl"
+className="action-icon" → className="text-5xl text-primary-light mx-auto mb-4"
+
+// About section
+className="about-section" → className="py-16 px-8 bg-gray-50"
+className="about-content" → className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center"
+className="section-title" → className="text-5xl text-center text-primary mb-4"
+
+// Room cards
+className="rooms-preview" → className="py-16 px-8"
+className="rooms-grid" → className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12"
+className="room-card" → className="bg-white rounded-2xl overflow-hidden shadow-lg transition-all duration-300 hover:-translate-y-3 hover:shadow-2xl"
+
+// ===========================
+// CHECK AVAILABILITY Updates
+// ===========================
+
+className="check-availability-page" → className="min-h-screen bg-gray-50"
+className="page-header" → className="bg-gradient-to-r from-primary to-primary-light text-white py-16 px-8 text-center"
+className="search-section" → className="bg-white p-10 rounded-2xl shadow-xl -mt-12 relative z-10"
+className="availability-form" → className="flex flex-col gap-8"
+className="form-row" → className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6"
+className="form-group" → className="flex flex-col gap-2"
+className="search-btn" → className="px-10 py-4 bg-gradient-to-r from-primary-light to-primary text-white rounded-full text-lg font-semibold hover:-translate-y-1 hover:shadow-lg self-center min-w-[250px]"
+
+// Results
+className="results-section" → className="py-12"
+className="rooms-list" → className="flex flex-col gap-8"
+className="available-room-card" → className="bg-white rounded-2xl overflow-hidden shadow-lg grid grid-cols-1 lg:grid-cols-[350px_1fr] hover:-translate-y-2 hover:shadow-2xl"
+
+// =====================
+// BOOK ROOMS Updates
+// =====================
+
+className="book-rooms-page" → className="min-h-screen bg-gray-50"
+className="booking-container" → className="bg-white rounded-2xl shadow-xl p-12 -mt-12 relative z-10"
+className="progress-bar" → className="flex justify-between items-center mb-12 relative"
+className="progress-step" → className="flex flex-col items-center gap-2 z-10"
+className="step-number" → className="w-12 h-12 rounded-full bg-gray-200 text-gray-600 flex items-center justify-center font-bold text-xl"
+className="booking-form" → className="space-y-8"
+className="form-grid" → className="grid grid-cols-1 md:grid-cols-2 gap-6"
+
+// Active step
+className="progress-step active .step-number" → className="w-12 h-12 rounded-full bg-gradient-to-br from-primary-light to-primary text-white flex items-center justify-center font-bold text-xl shadow-lg"
+
+// =====================
+// ORDER FOODS Updates
+// =====================
+
+className="order-foods-page" → className="min-h-screen bg-gray-50 pb-8"
+className="search-filter-section" → className="flex gap-4 -mt-8 relative z-10"
+className="search-box" → className="flex-1 flex items-center gap-4 bg-white py-4 px-6 rounded-full shadow-lg"
+className="cart-toggle" → className="flex items-center gap-3 py-4 px-8 bg-white border-2 border-primary-light rounded-full text-primary-light font-semibold hover:bg-primary-light hover:text-white"
+
+// Category tabs
+className="category-tabs" → className="flex gap-4 mb-8 overflow-x-auto pb-2"
+className="category-tab" → className="flex items-center gap-3 py-4 px-8 bg-white border-2 border-gray-200 rounded-full font-semibold text-gray-600 whitespace-nowrap hover:border-primary-light hover:text-primary-light"
+className="category-tab active" → className="flex items-center gap-3 py-4 px-8 bg-gradient-to-r from-primary-light to-primary border-2 border-primary-light rounded-full font-semibold text-white whitespace-nowrap"
+
+// Menu grid
+className="menu-grid" → className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8"
+className="menu-item-card" → className="bg-white rounded-2xl overflow-hidden shadow-lg hover:-translate-y-2 hover:shadow-2xl"
+
+// =====================
+// BUY PACKAGES Updates
+// =====================
+
+className="buy-packages-page" → className="min-h-screen bg-gray-50 pb-16"
+className="packages-grid" → className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-10"
+className="package-card" → className="bg-white rounded-3xl p-10 shadow-lg hover:-translate-y-3 hover:shadow-2xl flex flex-col"
+className="popular-badge" → className="absolute -top-3 right-5 bg-gradient-to-r from-accent to-yellow-300 text-primary py-2 px-6 rounded-full font-bold flex items-center gap-2 shadow-lg"
+
+// ==================
+// GALLERY Updates
+// ==================
+
+className="gallery-page" → className="min-h-screen bg-gray-50 pb-16"
+className="gallery-grid" → className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16"
+className="gallery-item" → className="relative rounded-2xl overflow-hidden shadow-lg hover:-translate-y-3 hover:scale-105 cursor-pointer aspect-[4/3]"
+
+// ==================
+// CONTACT Updates
+// ==================
+
+className="contact-page" → className="min-h-screen bg-gray-50 pb-16"
+className="contact-content" → className="grid grid-cols-1 lg:grid-cols-2 gap-12 my-12"
+className="contact-cards" → className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8"
+className="info-card" → className="bg-white p-8 rounded-xl shadow-md text-center hover:-translate-y-2 hover:shadow-xl"
+className="contact-form-section" → className="bg-white p-10 rounded-2xl shadow-xl"
+
+// ================
+// LOGIN Updates
+// ================
+
+className="login-page" → className="min-h-screen flex items-center justify-center bg-gray-50 p-8"
+className="login-container" → className="max-w-6xl w-full grid grid-cols-1 lg:grid-cols-2 bg-white rounded-3xl overflow-hidden shadow-2xl"
+className="login-image-section" → className="bg-gradient-to-br from-primary to-primary-light relative p-16 flex items-center justify-center"
+className="login-form-section" → className="p-16 flex items-center"
+
+// ====================
+// FORM INPUTS (All)
+// ====================
+
+// Replace all form inputs with:
+<input className="form-input" />
+<select className="form-select" />
+<textarea className="form-textarea" />
+
+// Labels
+<label className="font-semibold text-primary flex items-center gap-2">
+
+// ====================
+// BUTTONS (All)
+// ====================
+
+// Primary button
+className="...btn..." → className="px-8 py-4 bg-accent text-primary rounded-full font-semibold hover:bg-yellow-300 hover:-translate-y-1 hover:shadow-lg"
+
+// Secondary button
+className="...btn-secondary..." → className="px-8 py-4 bg-transparent text-white border-2 border-white rounded-full font-semibold hover:bg-white hover:text-primary hover:-translate-y-1"
+
+// Regular button
+<button className="px-6 py-3 bg-gradient-to-r from-primary-light to-primary text-white rounded-lg font-semibold hover:-translate-y-1 hover:shadow-lg">
