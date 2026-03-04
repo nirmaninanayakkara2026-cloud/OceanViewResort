@@ -56,9 +56,18 @@ mvn clean install
 mvn spring-boot:run
 ```
 
-The server will start on `http://localhost:8080`
+The server will start on `http://localhost:8081`
 
 ## 📡 API Endpoints
+
+### Swagger / OpenAPI Documentation
+
+Interactive API docs are available once the backend is running:
+
+- **Swagger UI**: `http://localhost:8081/swagger-ui.html` or `http://localhost:8081/swagger-ui/index.html`
+- **Raw spec**: `http://localhost:8081/v3/api-docs`
+
+(If you changed the server port in `application.properties`, adjust the URL accordingly.)
 
 ### Authentication
 
@@ -192,7 +201,7 @@ Frontend should be running on `http://localhost:5173`
 Update frontend API base URL to:
 
 ```javascript
-const API_BASE_URL = "http://localhost:8080/api";
+const API_BASE_URL = "http://localhost:8081/api";
 ```
 
 ## 📧 Support
