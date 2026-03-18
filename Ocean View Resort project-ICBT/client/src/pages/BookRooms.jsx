@@ -468,37 +468,12 @@ const BookRooms = () => {
                   />
                 </div>
 
-                <div className="md:col-span-2">
-                  <label className="block font-semibold text-primary mb-2 flex items-center gap-2">
-                    <FaCamera /> ID/Passport Document (OCR Supported)
-                  </label>
-                  <div className="mt-2">
-                    <input
-                      type="file"
-                      onChange={handleFileChange}
-                      accept="image/*"
-                      id="id-upload"
-                      className="hidden"
-                    />
-                    <label
-                      htmlFor="id-upload"
-                      className="inline-block px-6 py-3 bg-gray-100 border-2 border-gray-300 rounded-lg cursor-pointer hover:bg-gray-200 hover:border-primary-light transition-all"
-                    >
-                      {bookingData.idDocument
-                        ? bookingData.idDocument.name
-                        : "Upload ID or Passport"}
-                    </label>
-                    <p className="text-sm text-gray-500 mt-2">
-                      Upload your ID/Passport to auto-fill details (Optional)
-                    </p>
-                  </div>
-                </div>
               </div>
 
               <div className="flex justify-end gap-4 pt-6">
                 <button
                   type="submit"
-                  className="px-8 py-3 bg-gradient-to-r from-primary-light to-primary text-white rounded-full font-semibold hover:-translate-y-1 hover:shadow-lg transition-all duration-300"
+                  className="px-8 py-3 bg-gradient-to-r from-primary to-primary-light text-white rounded-full font-semibold hover:-translate-y-1 hover:shadow-lg transition-all duration-300"
                 >
                   Next Step →
                 </button>
